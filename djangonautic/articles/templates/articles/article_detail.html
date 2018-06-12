@@ -6,7 +6,7 @@
         <img src="{{ article.thumb.url }}" />
         <h2>{{ article.title }}</h2>
         <p>{{ article.body }}</p>
-        <p>{{ article.date }}</p>
+        <p>{{ article.date }} by <span style="font-style: italic;">{{ article.author.username }}</span></p>
     </div>
 </div>
 {% endblock %}
